@@ -20,5 +20,6 @@ dependencies = [
 tmygen = "tmygen.cli:main"
 
 [tool.setuptools.packages.find]
-where = ["tmygen"]
+where = ["."]
+include = ["tmygen*"]
 
